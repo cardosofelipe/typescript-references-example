@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ESNext",
+    "outDir": "lib/main",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "types": [],
+    "lib": ["ESNext", "DOM"]
+  }
+}

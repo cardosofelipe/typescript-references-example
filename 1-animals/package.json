@@ -1,0 +1,17 @@
+{
+  "name": "animals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
+  "scripts": {
+    "build": "tsc -b -v",
+    "clean": "tsc -b --clean"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "typescript": "^4.9.5"
+  },
+  "node": ">=18.0.0"
+}
