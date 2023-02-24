@@ -1,0 +1,17 @@
+{
+  "name": "typescript-references-example",
+  "version": "1.0.0",
+  "description": "The structure of this repo is as follows:",
+  "main": "index.js",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
+  "scripts": {
+    "build": "tsc -b -v",
+    "clean": "tsc -b --clean"
+  },
+  "type": "module",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "node": ">=18.0.0"
+}
